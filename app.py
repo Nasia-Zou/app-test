@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Set the banner
-st.image("images.jpg", use_container_width=True)
+# st.image("images.jpg", use_container_width=True)
 
 # App title
 st.title("Cardiovascular Disease Prediction App")
@@ -143,4 +143,5 @@ if st.checkbox("Show Example Visualization"):
     ax.set_xlabel("Predicted")
     ax.set_ylabel("Actual")
     st.pyplot(fig)
+
 
